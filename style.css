@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 body {
@@ -52,4 +54,76 @@ nav ul li a {
 
 #segunda:hover {
     font-size: 26px;
+}
+
+#container {
+    /*
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    */
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section h1 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+section h2 {
+    margin: 20px;
+}
+
+#paragrafos {
+    display: block;
+}
+
+#paragrafos p {
+    font-size: 19px;
+    margin: 0 50px 0 50px;
+    line-height: 25px;
+}
+
+#linkJogo {
+    font-size: 22px;
+    padding: 20px;
+}
+
+#negrito {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#regras ul {
+    font-size: 19px;
+    margin: 0 50px 0 50px;
+    line-height: 25px;
+}
+
+#regras ul li {
+    padding: 10px;
+}
+
+#ficha {
+    background-color: #282c34;
+    height: 130px;
+}
+
+#introducao {
+    border: 2px solid;
+    margin: 10px 80px 10px 80px;
+    height: 80vh;
+}
+
+#botoes {
+    background-color: blue;
+    width: 100%;
+    padding: 10px;
 }
